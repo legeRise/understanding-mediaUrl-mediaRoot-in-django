@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> yes i am the test.html</h1>
+    {{test.name}}
+    {{test.my_image.path}}
+    <br>
+    {{test.my_image.url}}
+    <br>
+    <img>  
+    <!-- it has to be served in urls.py(if development environment) to be accessed -->
+    <img src="{{test.my_image.url}}" >   
+</body>
+</html>
